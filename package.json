@@ -1,0 +1,13 @@
+{
+  "name": "aegis-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API Sentinel fullstack project",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "test": "npm --prefix frontend run test",
+    "start": "npm --prefix frontend run preview"
+  }
+}

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /auth/callback
+
+# Authenticated console surfaces are not useful to crawlers.
+Disallow: /dashboard
+Disallow: /history
+Disallow: /team
+Disallow: /spec
+Disallow: /settings
+Disallow: /operation-scan
